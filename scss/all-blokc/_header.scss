@@ -4,7 +4,10 @@
     align-items: center;
     padding-top: 27px;
     padding-bottom: 26px;
+    
 }
+
+
 
 .site-header__list {
     display: flex;
@@ -23,12 +26,36 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
-    color: #222326;
+    color: rgba(34, 35, 38, 0.8);
+}
+
+.site-header__list__item:hover{
+     color: #222326;
+}
+.site-header__end{
+    position: relative;
+}
+.site-header__end__link{
+    text-decoration: none;
+}
+
+.site-header__end__text::before{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding-right: 22px;
+    background-image: url('../imges/icons/site-telofon-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    position: absolute;
+    left: -42px;
+    top: 20px;
+    content: '';
 }
 
 .site-header__end__text {
-    font-family: 'Rubik';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -36,4 +63,10 @@
 
 }
 
-.site-header__end__phonenumber {}
+.site-header__end__phonenumber {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
