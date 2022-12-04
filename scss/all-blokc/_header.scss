@@ -1,0 +1,39 @@
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 26px;
+}
+
+.site-header__list {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.site-header__list__link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.site-header__list__item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #222326;
+}
+
+.site-header__end__text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.site-header__end__phonenumber {}
