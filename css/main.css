@@ -607,7 +607,7 @@ img {
   background-size: cover;
   position: absolute;
   bottom: 0px;
-  right: -15px;
+  right: -13px;
 }
 
 .site-hero__end__bottom::after {
@@ -700,5 +700,111 @@ img {
   position: absolute;
   top: 116px;
   left: 236px;
+  content: "";
+}
+
+.about_us__wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.about_us__start--name {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #050931;
+  position: relative;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+
+.about_us__start--name::after {
+  width: 85px;
+  height: 4px;
+  padding-left: 20px;
+  background-image: url("../../imges/About_us_underscore.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 20px;
+  left: -4px;
+  content: "";
+}
+
+.about_us__start--heading {
+  width: 492px;
+  margin: 0px;
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 120%;
+  color: #050931;
+}
+
+.about_us__start--text {
+  width: 513px;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #647685;
+}
+
+.about_us__start--text__span {
+  color: rgb(254, 107, 1);
+}
+
+.about_us__start__subtitle {
+  width: 499px;
+  margin: 0px;
+  margin-bottom: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #647685;
+}
+
+.about_us__start--button {
+  padding-bottom: 226px;
+}
+
+.about_us__end {
+  width: 211px;
+  height: 220.27px;
+  background-image: url("../../imges/site-hero-circles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  position: relative;
+}
+
+.about_us__end::before {
+  width: 442px;
+  height: 440px;
+  padding-left: 20px;
+  background-image: url("../../imges/girl_and_product.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 232px;
+  left: -580px;
+  content: "";
+  z-index: 1000;
+}
+
+.about_us__end::after {
+  width: 404px;
+  height: 442px;
+  padding-left: 20px;
+  background-image: url("../../imges/About_us_girl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 120px;
+  left: -300px;
   content: "";
 }/*# sourceMappingURL=main.css.map */
