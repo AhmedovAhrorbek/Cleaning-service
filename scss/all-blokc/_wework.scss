@@ -1,0 +1,140 @@
+.site-wework__start--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.site-wework__start--wrapper::after{
+    width: 211px;
+    height: 220.27px;
+    content: url('../../imges/site-hero-circles.png');
+    position: absolute;
+    right: -360px;
+    top: 0px;
+}
+
+.site-wework__start--name {
+    width: 126px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #050931;
+    position: relative;
+}
+
+.site-wework__start--name::before {
+    width: 128px;
+    height: 4px;
+    padding-left: 20px;
+    background-image: url('../../imges/howwework_underscore.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: -5.5px;
+    content: '';
+}
+
+.site-wework__start--title {
+    margin: 0px;
+    width: 555px;
+    font-size: 48px;
+    line-height: 120%;
+    color: #050931;
+}
+
+.site-wework__start--rightside {
+    margin-top: 30px;
+}
+
+.site-wework__start--subtitle {
+    width: 403px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #647685;
+}
+
+.site-wework__end--boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.site-wework__end--box{
+    width: 282px;
+    text-align: center;
+    border-left: 1px solid #FF8345;
+    height: 372px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.box-second{
+    border-left: 1px solid  #1F6BFF;
+}
+
+.box-third{
+    border-left: 1px solid  #FFCA45;
+}
+.box-four{
+    border-left: 1px solid   #37D348;
+}
+
+
+
+.site-wework__end--number {
+    padding-top: 43px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    width: 110px;
+    height: 107px;
+    background-image: url('../../imges/bg_01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #FF8345;
+
+}
+.site-wework__end--secondtitle{
+    background-image: url('../../imges/bg-02.png');
+    color: #1F6BFF;
+}
+.site-wework__end--thirdtitle{
+    background-image: url('../../imges/bg_03.png');
+    color: #FFCA45;
+}
+
+.site-wework__end--fourthtitle{
+    background-image: url('../../imges/bg_04.png');
+    color: #37D348 ;
+}
+
+.site-wework__end--title {
+    width: 236px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #1B1E1C;
+}
+
+.site-wework__end--text {
+   width: 238px;
+   margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: #767877;
+}

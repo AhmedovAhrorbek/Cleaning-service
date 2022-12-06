@@ -65,21 +65,41 @@
 
 .about_us__start--button{
     padding-bottom: 226px;
+    position: relative;
 }
 
-.about_us__end{
-    width: 211px;
-    height: 220.27px;
-    background-image: url('../../imges/site-hero-circles.png');
+// .about_us__end{
+//     width: 211px;
+//     height: 220.27px;
+//     background-image: url('../../imges/site-hero-circles.png');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     position: absolute;
+//     top: 0px;
+
+//     position: relative;
+    
+    
+// }
+.about_us__start::after{
+    width: 73px;
+    height: 73px;
+    padding-left: 20px;
+    background-image: url('../../imges/About_us_small_circle.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    
-    position: relative;
-    
-    
+    top: 135px;
+    left: 690px;
+    content: '';
+}
+.about_us__end{
+     position: relative;
 }
 
+.about_us__end--imgcircles{
+    margin-top: 460px;
+}
 .about_us__end::before{
     width: 442px;
     height: 440px;
@@ -92,6 +112,7 @@
     left:-580px;
     content: '';
     z-index: 1000;
+   
 }
 .about_us__end::after{
     width: 404px;

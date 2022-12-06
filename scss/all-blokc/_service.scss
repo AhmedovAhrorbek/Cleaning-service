@@ -1,0 +1,142 @@
+.site-service{
+    background-color:  #F4F9FD;
+    position: relative;
+}
+.site-service::before{
+    width: 177px;
+    height: 260px;
+    padding-left: 20px;
+    background-image: url('../../imges/Service-half-circle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+}
+
+.site-service__name {
+    padding-top: 120.27px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #050931;
+    position: relative;
+}
+
+.site-service__name::after {
+    width: 85px;
+    height: 4px;
+    padding-left: 20px;
+    background-image: url('../../imges/About_us_underscore.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 140.27px;
+    left: 717px;
+    content: '';
+}
+
+.site-service__title {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 19.73px;
+    font-size: 48px;
+    line-height: 120%;
+    color: #050931;
+}
+
+.site-service__text {
+    width: 619px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: #647685;
+
+}
+
+.site-service__boxes {
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-service__box {
+    width: 420px;
+    padding-left: 32px;
+    margin-top: 78px;
+    margin-bottom: 246px;
+    background-color: #ffffff;
+    border: 1px solid #E3E3E3;
+    border-radius: 12px;
+}
+.site-service__box:hover{
+    box-shadow: 0px 54px 80px -16px rgba(219, 222, 229, 0.8);
+}
+
+.site-service__box__heading {
+    width: 266px;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 100%;
+    color: #1B1E1C;
+    position: relative;
+}
+
+.site-service__box__heading::before {
+    width: 128px;
+    height: 128px;
+    
+    background-image: url('../../imges/icons/Service-hospital-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+    left: -17px;
+    content: '';
+}
+
+.second-box__heading::before{
+    width: 128px;
+    height: 128px;
+    
+    background-image: url('../../imges/icons/Service-office-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+    left: -17px;
+    content: '';
+}
+.third-box__heading::before{
+    width: 128px;
+    height: 128px;
+    
+    background-image: url('../../imges/icons/Service-home-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+    left: -17px;
+    content: '';
+}
+
+.site-service__box__subtitle {
+    width: 345px;
+    margin-bottom: 47px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #767877;
+}
+
+.site-service__box__button {
+    border: none;
+    background: none;
+    padding-bottom: 40px;
+}

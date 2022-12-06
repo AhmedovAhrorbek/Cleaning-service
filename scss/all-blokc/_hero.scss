@@ -79,31 +79,69 @@
    
 }
 
-.site-hero__end__forposition{
-    padding-right: 683px;
-    width: 763px;
-    height: 763px;
-    background-image:  url('../../imges/site-hero-round.png');
+// .site-hero__end__forposition{
+//     padding-right: 683px;
+//     width: 763px;
+//     height: 763px;
+//     background-image:  url('../../imges/site-hero-round.png');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center center;
+//     position: absolute;
+//     right: -93px;
+//     bottom: 0px;
+   
+
+
+// .site-hero__end__bottom {
+//     width: 671px;
+//     height: 840px;
+//       background-image: url('../../imges/site-hero-girl.png');
+//       background-repeat: no-repeat;
+//       background-size: cover;
+//       position: absolute;
+//       bottom: 0px;
+//       right: -13px;
+   
+// }
+
+.site-hero__end-leftimg{
+    position: relative;
+}
+.site-hero__end--rightimg{
+    position: absolute;
+    left: -70px;
+    top: -30px;
+    width: 663px;
+    height: 663px;
+    margin-top: 149px;
+    background-image: url('../../imges/site-hero-round.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    position: absolute;
-    right: -93px;
-    bottom: 0px;
+    background-position: left center;
+   position: relative;
    
 }
 
-.site-hero__end__bottom {
-    width: 671px;
-    height: 840px;
-      background-image: url('../../imges/site-hero-girl.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: absolute;
-      bottom: 0px;
-      right: -13px;
+.site-hero__end-leftimg::before{
+    width: 221px;
+    height: 231px;
+    background-image: url('../../imges/site-hero-circles.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -125px;
+    left: -90px;
+    content: '';
    
 }
+
+.site-hero__end_girlimg{
+    margin-top: 0px;
+    position:absolute;
+    top: 0px;
+}
+
 .site-hero__end__bottom::after{
     width: 221px;
     height: 231px;
@@ -121,7 +159,7 @@
 .site-hero__end__bottom__box {
     position: absolute;
     bottom: 0px;
-    right: 15px;
+    right: 23px;
     background-image: url('../../imges/icons/site-hero-icon.png');
     background-repeat: no-repeat;
     width: 359px;
